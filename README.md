@@ -38,3 +38,15 @@ gmae engine
 
 ## 6 Precompiled
 
+预编译头
+
+目的：以后写程序快速编译，这些头文件已经编译好，不用再进行编译
+
+premake文件里面添加
+
+```lua
+  pchheader "Hzpch.h"
+
+  pchsource "Hazel/src/Hzpch.cpp"
+```
+
