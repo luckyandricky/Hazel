@@ -50,3 +50,10 @@ premake文件里面添加
   pchsource "Hazel/src/Hzpch.cpp"
 ```
 
+
+
+## 7 Window Abstraction
+
+GLFW
+
+用于OpenGL，OpenGL ES 和 Vulkan 应用程序开发的开源、多平台库。它提供了一个简单的、独立于平台的 API，用于创建窗口、上下文和表面、读取输入、处理事件等。
